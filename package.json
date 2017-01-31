@@ -1,15 +1,17 @@
 {
-    "name": "gitbook-plugin-exercises",
-    "description": "Interactive exercices in a gitbook",
-    "main": "index.js",
-    "version": "2.1.1",
+    "name": "gitbook-plugin-mytest",
+    "version": "0.0.1",
+    "description": "This is my first GitBook plugin",
     "engines": {
-        "gitbook": ">=3.0.0-pre.0"
+        "gitbook": ">1.x.x"
     },
-    "dependencies": {
-        "lodash": "3.0.1",
-        "kramed": "0.4.4",
-        "kramed-markdown-renderer": "0.1.1"
+    "gitbook": {
+        "properties": {
+            "myConfigKey": {
+                "type": "string",
+                "default": "it's the default value",
+                "description": "It defines my awesome config!"
+            }
+        }
     }
-    
 }
