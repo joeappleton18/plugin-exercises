@@ -1,6 +1,9 @@
+
 var _ = require("lodash");
 var fs = require("fs");
 var path = require("path");
+
+console.log('hello world');
 
 var retro = require("./lib/retro");
 
