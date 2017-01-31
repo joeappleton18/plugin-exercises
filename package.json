@@ -12,12 +12,5 @@
         "kramed-markdown-renderer": "0.1.1"
     },
     "homepage": "https://github.com/GitbookIO/plugin-exercises",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/GitbookIO/plugin-exercises.git"
-    },
-    "license": "Apache 2",
-    "bugs": {
-        "url": "https://github.com/GitbookIO/plugin-exercises/issues"
-    }
+    
 }
